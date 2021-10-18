@@ -1,0 +1,11 @@
+-> Testes (../node_modules/mocha/bin/mocha core/):
+	db.test.js
+	context.test.js
+	models/user.test.js
+
+-> Rodar API (/mnt/c/Code/task-killer/nodejs$):
+	node api/app.js
+
+-> Bater na API (/mnt/c/Code/task-killer/nodejs$ ):
+	curl -XGET http://localhost:3000/
+	curl -XPOST http://localhost:3000/users/create -H "Content-type: application/json" -d '{"name":"Kleber","email":"teste@teste.com","password":"123"}'
